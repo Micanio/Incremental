@@ -44,7 +44,23 @@ table {
 }
 
 /* TYPOGRAPHY */
-
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
 /* LAYOUT */
-
+body {
+	padding: 30px;
+}
 /* BUTTONS */
+button {
+	margin-bottom: 20px;
+}
+#oreButton {
+	display: none;
+}
+
+/*---- TEXT ----*/
+#oreTotal {
+	display: none;
+}

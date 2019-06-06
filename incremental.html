@@ -2,11 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Incrementally yours...</title>
 	<link rel="stylesheet" href="inc-interface.css">
 </head>
 <body>
-	<p>TEST</p>
+	<h1>Click some stuff to get more stuff</h1>
+	<button onClick="collectWood(1)">Gather wood</button>
+	<button onClick="createTool()">Create Multitool</button>
+	<button id="fireButton" onClick="createFire()" >Start a fire</button>
+	<button id="oreButton" onClick="mineOre(1)">Mine ore</button>
+	<p>Wood: <span id="wood">0</span></p>
+	<p>Multitools (cost: <span id="toolCost">10</span>): <span id="tool">0</span></p>
+	<p>Fire burn time (cost: <span id="fireCost">10</span>): <span id="fire">0</span></p>
+	<p id="oreTotal">Ore: <span id="ore">0</span></p>
+
+
+
+
+
+
+
 <script type="text/javascript" src="inc-scripts.js"></script>	
 </body>
 </html>
